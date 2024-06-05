@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulas Geometricas</title>
+  <link rel="stylesheet" href="./math.css">
+ 
+</head>
+<body>
+  <header>
+    <h1>Geometry Shapes</h1>
+  </header>
+  <main>
+    <div class="shapes-container">
+      <div class="triangle-shape-container">
+        <h2 class="subtitle">Triangle</h2>
+        <div class="triangle-container">
+          <img src="./media/triangle_PNG2.png" alt="Triangle">
+          <div class="triangle-results">
+            <input id="base" type="number" placeholder="Base"/>
+            <input id="sideA" type="number" placeholder="Side a"/>
+            <input id="sideB" type="number" placeholder="Side b"/>
+            <input id="height" type="number" placeholder="Height"/>
+            <span id="triangleArea">Area = </span>
+            <span id="trianglePerimeter">Perimetro = </span>
+
+          </div>
+        </div>
+        <span>Area = 0.5 * base * height</span>
+        <span>Perimeter = a + b + c</span>
+      </div>
+      <div class="square-shape-container">
+        <h2 class="subtitle">Square</h2>
+        <div class="square-container">
+          <img alt="Square" src="./media/cuadrado.png">
+          <div class="square-results">
+            <input id="side" type="number" placeholder="Side"/>
+            <span id="squareArea">Area = </span>
+            <span id="squarePerimeter">Perimetro = </span>
+          </div>
+        </div>
+        <span>Area = side * side</span>
+        <span>Perimeter = 4 * side</span>
+      </div>
+    </div>
+  </main>
+  <script src="./math.js"></script>
+</body>
+</html>

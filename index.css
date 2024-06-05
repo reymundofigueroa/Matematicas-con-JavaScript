@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+
+header h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12vh;
+  font-size: 4rem;
+  color: #1A73E8;
+  background-color: #C4DEFE;
+}
+main{
+  padding-top: 42px;
+  padding-left: 44px;
+  height: 88vh;
+  background: linear-gradient(to top right, #FBE6F3 45%,#C4DEFE);
+  background-repeat: no-repeat;
+}
+main p{
+  font-size: 2.4rem;
+}
+main p a{
+  text-decoration: none;
+  color: #568abf;
+  font-weight: 600;
+}
+main ul {
+  padding-top: 24px;
+}
+main li{
+  padding-bottom: 12px;
+}
+main li a{
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #568abf;
+
+}
